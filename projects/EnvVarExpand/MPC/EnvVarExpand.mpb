@@ -1,0 +1,5 @@
+project: EnvVarExpand_dependencies {
+    includes += $(ENVVAREXPAND_PRJ_ROOT)/include
+    libpaths += $(ENVVAREXPAND_PRJ_ROOT)/lib
+    libs += EnvVarExpand
+}
